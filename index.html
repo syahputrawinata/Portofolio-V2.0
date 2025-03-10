@@ -473,6 +473,8 @@
                         <label for="message" class="contact__label">Message</label>
                      </div>
 
+                     <p class="contact__message" id="contact-message"></p>
+
                      <button type="submit" class="contact__button button">
                         <i class="ri-send-plane-line"></i> Send Message
                      </button>
@@ -514,7 +516,26 @@
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footer__container container grid">
+            <ul class="footer__links">
+               <li>
+                  <a href="#home" class="footer__link">Home</a>
+               </li>
+
+               <li>
+                  <a href="#about" class="footer__link">About</a>
+               </li>
+               
+               <li>
+                  <a href="#projects" class="footer__link">Projects</a>
+               </li>
+            </ul>
+            
+            <span class="footer__copy">
+               &#169; All Rights Reserved By 
+               <a href="#">Syahputra Winata.</a>
+            </span>
+         </div>
       </footer>
 
       <!--========== SCROLL UP ==========-->
@@ -524,7 +545,9 @@
       <script src=""></script>
       
       <!--=============== EMAIL JS ===============-->
-      
+      <script
+         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+      </script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
